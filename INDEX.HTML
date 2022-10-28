@@ -1,0 +1,44 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Estudos JS</title>
+		<link rel="stylesheet" href="./css/index.css" />
+
+		<script src="./js/index.js" defer></script>
+	</head>
+	<body>
+		<header class="nav">
+			<div class="logo">
+				<h1>Estudos com JS</h1>
+			</div>
+			<div class="links">
+				<a href="#" class="menu">Home</a>
+			</div>			
+		</header>
+		<main>
+			<div class="container">
+				<div><h1>Consulta se Aprovado</h1></div>
+				<form class="box"> 
+					<input type="text" name="n1" id="n1" placeholder="Informe um primeiro numero" />
+					<input type="text" name="n2" id="n2" placeholder="Informe um segundo numero" />
+					<button class="bnt" onclick="myClick()">Consultar</button>
+				</form>				
+			</div>
+			<div class="container-01">
+				<div><h1>Calcule seu IMC</h1></div>
+				<form class="box" id="formulario"> 
+					<input type="text" name="kilos" id="kilos" placeholder="Informe seu Peso" />
+					<input type="text" name="metros" id="metros" placeholder="Informe a Altura (Metros)" />
+					<input type="text" name="centimetros" id="centimetros" placeholder="Informe os centimetros" />
+					<button type="button" class="bnt" onclick="myClick2()">Consultar</button>
+					<div class="visual">
+						<input type="text" name="imc" id="imc" placeholder="IMC" disabled="disabled" style="background-color:#ADFF2F"/>
+					</div>
+				</form>				
+			</div>
+		</main>
+	</body>
+</html>
+
